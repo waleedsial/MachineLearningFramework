@@ -1,7 +1,8 @@
 from sklearn import ensemble
 
 # Dispatcher is a file which will have different models. 
-# From here we pass in the model. The rest of the methods like preparing the data, fitting the model are similar/same for different models. 
+# We initiate the model here. Using command line we can choose which model we want.
+# The rest of the methods like preparing the data, fitting the model are similar/same for different models. 
 
 MODELS = {
     "randomforest": ensemble.RandomForestClassifier(n_estimators = 200,n_jobs = -1, verbose =2),
