@@ -141,7 +141,7 @@ cython_debug/
 input/
 models/
 
-# Data files 
+# Data files, we dont want these kind of files to be uploaded to git. 
 *.csv
 *.h5
 *.pkl
